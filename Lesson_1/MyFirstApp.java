@@ -8,10 +8,3 @@ public class MyFirstApp {
         System.out.println(console.nextLine());
     }
 }
-
-public class VariableNamesTheme {
-    public static void main(String[] args) {
-    
-
-    }
-}

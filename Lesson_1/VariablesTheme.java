@@ -40,8 +40,8 @@ public class VariablesTheme {
         System.out.println();
 
         //Свободное пространство на жестком диске
-        boolean freeeSpaceHdd = true;
-        System.out.println("Есть свободное место на диске? Ответ: " + freeeSpaceHdd);
+        boolean freeSpaceHdd = true;
+        System.out.println("Есть свободное место на диске? Ответ: " + freeSpaceHdd);
         System.out.println();
         System.out.println();
 

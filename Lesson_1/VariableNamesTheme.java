@@ -89,7 +89,6 @@ public class VariableNamesTheme {
         int numbersInRow = 95;
         System.out.println("Количество чисел в каждой строке = " + numbersInRow);
 
-
         System.out.println("\n2. boolean переменные");
         //сотни равны?
         boolean isEqualHundreds = true;
@@ -118,7 +117,6 @@ public class VariableNamesTheme {
         //имеются уникальные строки?
         boolean hasUniqueStrings = true;
         System.out.println("Имеются уникальные строки? " + hasUniqueStrings);
-
 
         System.out.println("\n3. Аббревиатуры");
         //старый universally unique identifier

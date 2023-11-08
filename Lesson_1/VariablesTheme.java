@@ -83,9 +83,11 @@ public class VariablesTheme {
         char atSign = '@';
         char verticalBar = '|';
         char tilde = '~';
-        System.out.printf("%d %d %d %d %d \n", 
-                (int) dollar, (int) asterisk, (int) atSign, (int) verticalBar, (int) tilde);
-        System.out.printf("%s %s %s %s %s %n", dollar, asterisk, atSign, verticalBar, tilde);
+        System.out.printf("%d %s \n", (int) dollar, dollar);
+        System.out.printf("%d %s \n", (int) asterisk, asterisk);
+        System.out.printf("%d %s \n", (int) atSign, atSign);
+        System.out.printf("%d %s \n", (int) verticalBar, verticalBar);
+        System.out.printf("%d %s \n", (int) tilde, tilde);
 
         System.out.println("\n7. Вывод в консоль ASCII-арт Дюка: ");
         char slash = '/';
@@ -99,10 +101,8 @@ public class VariablesTheme {
                 slash, underscore, leftParenthesis, rightParenthesis, backslash);
         System.out.printf(" %s      %s \n", slash, backslash);
         System.out.printf("%s%s%s%s%s%s%s%s%s%s \n", 
-                slash, underscore, underscore, underscore, 
-                underscore, slash, 
-                backslash, underscore,
-                underscore, backslash);
+                slash, underscore, underscore, underscore, underscore, slash,
+                backslash, underscore,underscore, backslash);
 
         System.out.println("\n8. Вывод количества сотен, десятков и единиц числа: ");
         int number = 123;
